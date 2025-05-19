@@ -44,17 +44,35 @@ h1{
 .menu li a {
     display: block;
     padding: 10px;
- 
+   
 }
 
 
 /*CSS FLEXBOX1*/
 
 
-.flex{
-    display: flex;
-}
+. .flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
 
-.flex > div{
-    flex: 1 1 200px;
-}
+    .flex-item {
+      width: 100%;
+      max-width: 200px;
+      text-align: center;
+    }
+
+    .flex-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .flex-item p {
+      margin-top: 8px;
+      font-size: 1rem;
+    }
+  </style>
