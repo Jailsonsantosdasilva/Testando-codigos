@@ -25,16 +25,51 @@ header{
 ul{
     display: flex;
     justify-content: flex-end;
+  
+  
 }
+
 
 li{
     list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white;
+   
+   
+}
+
+
+
+.h1{
+    text-align: center;
+   margin-top: 200px;
+   color: white;
+   
+}
+
+div h1{
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.h1 p{
+    background-color: rgba(0, 0, 0, 0.685);
+    margin-top: 100px;
+    display:inline-block;
+    padding: 15px;
 }
 
 a{
     text-decoration: none;
+    color: white;
+ 
+   
 }
 
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
 /*estilo do main*/
 main{
     
