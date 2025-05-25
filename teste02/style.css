@@ -7,12 +7,17 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: gray;
+}
+
 header{
    background-image: url("imagem/bg-3.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center right;
    height: 700px;
+  
 }
 
 ul{
@@ -45,7 +50,7 @@ a{
 
 h1{
     padding-bottom: 120px;
-    text-shadow: 3px 3px px black;
+    text-shadow: 3px 3px 3px black;
 }
 
 .h1 P {
@@ -53,6 +58,24 @@ h1{
     display: inline-block;
     padding: 20px;
     margin: 25px;
+    border-bottom: 3px solid white;
    
     
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.s1{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.foto{
+    display: inline-block;
+    width: 33%;
 }
