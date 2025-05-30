@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        div {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>meu primeiro formulario</h1>
-    <p>nome: <input type="text" name="nome" id=""></p>
-    <p>sobrenome: <input type="text" name="" id=""></p>
-    <input type="submit" vaEnviarlue="">
+    <div>
+        <form action="Cadastro.php" autocomplete="off">
+            <h1>meu primeiro formulario</h1>
+            <label for="iname">
+                <p>nome: <input type="text" name="nome" id="iname"></p>
+            </label>
+            <label for="isobrenome">
+                <p>sobrenome: <input type="text" name="sobrenome" id="isobrenome"></p>
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
 </body>
 </html>
