@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media print {
+
+}
+
+@media screen and (min-widt: 768px) and (max-width: 992px) {
+ body {
+    background-image: url("../imagem/back-tablet.jpg");
+
+    img#phone { display: none;}
+img#tablet { display: block;}
+img#print { display: none;}
+img#pc { display: none;}
+img#tv { display: none;}
+ } 
+}
