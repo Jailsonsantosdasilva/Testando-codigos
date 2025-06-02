@@ -22,6 +22,19 @@ header h1 {
     padding: 5px;
 }
 
+span {
+    color: white;
+    text-align: center;
+    background-color: rgb(53, 51, 51);
+    width: 100vw;
+    padding: 10px;
+}
+
+span:hover {
+    background-color: rgb(235, 232, 232);
+    color: black;
+}
+
 menu ul {
     list-style: none;
 }
