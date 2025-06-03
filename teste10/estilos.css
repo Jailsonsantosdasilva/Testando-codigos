@@ -42,3 +42,13 @@ body, html {
     transition: width .2s, heiht .2s;
     transition-timing-function: ease;
 }
+
+.formulario-login > h1 {
+    padding: 5px;
+    font-size: 2.5em;
+}
+
+.formulario-login > p {
+    padding: 8px;
+
+}
