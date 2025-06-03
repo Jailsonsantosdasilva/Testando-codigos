@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+body {
+    background-image: linear-gradient(to bottom, #061723, #999C9F);
+}
+
+.caixa-login {
+  display: flex;
+  justify-content: right;
+  width: 75vw;
+}
+
+.foto {
+    width: 60vw;
+    height: 543px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+}
+
+    @media screen and  (min-width: 1000px) {
+        body {
+    background-image: linear-gradient(to right, #061723, #999C9F);
+}
+
+.caixa-login {
+  display: flex;
+  justify-content: right;
+  width: 70vw;
+}
+
+.foto {
+    width: 50vw;
+    height: 542px;
+    border-radius: 15px 0px 0px 15px;
+    background-position: center bottom;
+
+}
+
+
+    }
